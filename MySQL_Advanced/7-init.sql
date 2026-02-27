@@ -1,4 +1,4 @@
--- Initial
+-- Initial script to set up the users, projects, and corrections tables for the average score calculation task. It also inserts some initial data for testing purposes.
 DROP TABLE IF EXISTS corrections;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS projects;

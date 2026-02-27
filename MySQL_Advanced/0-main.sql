@@ -1,16 +1,16 @@
--- Show existing records in the users table
+-- Show existing records in the table users 
 SELECT * FROM users;
 
--- Insert new users into the table
+-- Insert new users 
 INSERT INTO users (email, name) VALUES ('bob@dylan.com', 'Bob');
 INSERT INTO users (email, name) VALUES ('sylvie@dylan.com', 'Sylvie');
 
--- Show records after insertion
+-- tregon te gjitha te dhenate nga tabela users
 SELECT * FROM users;
 
--- Try to insert a duplicate email
+-- provojme te insertojme nje email te njejt me ate te Bob, qe duhet te jete i pamundur per shkak te kufizimit UNIQUE
 INSERT INTO users (email, name) VALUES ('bob@dylan.com', 'Jean');  -- Should fail because of the UNIQUE constraint
 
--- Show the final state of the users table
+-- tregon te gjitha te dhenat e tabeles
 SELECT * FROM users;
 

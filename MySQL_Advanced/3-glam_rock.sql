@@ -1,4 +1,4 @@
--- Lists all Glam rock bands ranked by longevity until 2024
+-- Lists all Glam rock bands 
 SELECT
     band_name,
     IFNULL(split, 2024) - formed AS lifespan

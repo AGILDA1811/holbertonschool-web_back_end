@@ -1,4 +1,4 @@
--- Stored procedure
+-- Stored procedure to add a bonus score for a user in a project. If the project does not exist, it will be created.
 DELIMITER $
 CREATE PROCEDURE AddBonus(IN user_id int, IN project_name varchar(50), IN score float)
 BEGIN

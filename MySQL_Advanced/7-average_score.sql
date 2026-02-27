@@ -1,4 +1,4 @@
--- Compute the average score for a student
+-- Compute the average score for a student and update the users table with the average score.
 DELIMITER $
 CREATE PROCEDURE ComputeAverageScoreForUser (IN user_id int)
 BEGIN

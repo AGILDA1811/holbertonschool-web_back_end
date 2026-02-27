@@ -1,4 +1,4 @@
--- Initial
+-- Initial setup for items and orders tables
 DROP TABLE IF EXISTS items;
 DROP TABLE IF EXISTS orders;
 

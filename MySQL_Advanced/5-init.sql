@@ -1,4 +1,4 @@
--- Initial
+-- Initial setup for items, orders, and users tables
 DROP TABLE IF EXISTS users;
 
 CREATE TABLE IF NOT EXISTS users (
